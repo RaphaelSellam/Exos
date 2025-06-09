@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,geometry,fancyhdr,esvect}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{mathrsfs}
+\geometry{hmargin=2cm, vmargin=2.5cm}
+
+% Configuration des listings avec encadrement
+\lstset{
+  basicstyle=\ttfamily\small,
+  frame=single,
+  breaklines=true,
+  numbers=none,
+  backgroundcolor=\color{white}
+}
+
+\titleformat{\section}{\bfseries\large}{}{0em}{}
+\titleformat{\subsection}{\bfseries\normalsize}{}{0em}{}
+
+\newcommand{\R}{\mathbb{R}}
+
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+  \fancyhead[L]{Nom et Prénom : \dotfill \\ Mardi 6 mai 2025}
+  \fancyhead[R]{P4}
+  \fancyfoot[C]{\thepage}
+}
+
+\pagestyle{plain}
+
+\title{}
+\date{}
+
+\begin{document}
+
+\thispagestyle{firstpage}
+
+\vspace{-0.2cm}
+\begin{center}
+  \textbf{\textit{Contrôle n°9. Durée : 55 minutes.}}\\
+  {\footnotesize (Calculatrice autorisée)}
+\end{center}
